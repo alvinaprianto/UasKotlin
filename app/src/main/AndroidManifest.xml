@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uaskotlin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.UasKotlin">
+        <activity
+            android:name=".ThreeD"
+            android:exported="false" />
+        <activity
+            android:name=".Logo"
+            android:exported="false" />
+        <activity
+            android:name=".Web"
+            android:exported="false" />
+        <activity
+            android:name=".Mobile"
+            android:exported="false"
+            android:label="@string/title_activity_mobile"
+            android:theme="@style/Theme.UasKotlin.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
